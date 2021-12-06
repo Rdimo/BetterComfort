@@ -3,21 +3,19 @@
 * @author Rdimo#6969
 * @description nice and comfortable theme for your eyes
 * @invite notcheataway
-* @version 0.0.1
-* @update https://raw.githubusercontent.com/Rdimo/betterdiscord-theme-rdimos-comfy-corner/main/Rdimos-comfy-corner.theme.css
+* @version 0.0.3
 * @donate https://paypal.me/rdimoo
+* @source https://github.com/Rdimo/betterdiscord-theme-rdimos-comfy-corner
+* @website https://rdimo.github.io/CheatAway/
+* @updateUrl https://raw.githubusercontent.com/Rdimo/betterdiscord-theme-rdimos-comfy-corner/main/Rdimos-comfy-corner.theme.css
 */
 
 /**
-*
-*
-*
-*
-*
-*
+* PRETTY MUCH 90% OF THIS WAS MADE BY nyri4 THEREFOR ALL CREDITS GO TO HIM, JUST MADE SOME ADJUSTMENTS TO MAKE IT LOOK CLEANER
 */
+@import "https://raw.githubusercontent.com/Rdimo/betterdiscord-theme-rdimos-comfy-corner/main/Comfort/custom_icons.css";
 
-@import "https://nyri4.github.io/Comfy/betterdiscord/main.css";
+@import "https://raw.githubusercontent.com/Rdimo/betterdiscord-theme-rdimos-comfy-corner/main/Comfort/main.css";
 
 @import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css"; /* No scrollbar*/
 
@@ -26,7 +24,7 @@
 :root { 
 --disable-animations: 2s channel-unread infinite;
 
---status-background: url('https://cdn.discordapp.com/avatars/905197756900065292/a_6c8609c17cc051c5fd81a5dceb38d35d.gif');
+--status-background: url('https://raw.githubusercontent.com/Rdimo/betterdiscord-theme-rdimos-comfy-corner/main/Comfort/doggo.gif');
 
 --user-buttons-spacing: 8px;
 
@@ -134,7 +132,7 @@
     content: "";
     position: absolute;
     pointer-events: none;
-    background: url('https://cdn.discordapp.com/avatars/905197756900065292/a_6c8609c17cc051c5fd81a5dceb38d35d.gif') center/100% no-repeat;
+    background: url('https://raw.githubusercontent.com/Rdimo/betterdiscord-theme-rdimos-comfy-corner/main/Comfort/doggo.gif') center/100% no-repeat;
     border-radius: 7px;
     width: 16px;
     height: 16px;
@@ -145,7 +143,7 @@
     width: 0;
 }
 .titleBar-AC4pGV .wordmark-2iDDfm::after {
-    content: "Rdimo";
+    content: "BetterComfort";
     position: absolute;
     font-family: "Fredoka One";
     background: linear-gradient(to right, #ff00c1, #9600ff, #4900ff, #00b8ff, #00fff9);

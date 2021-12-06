@@ -1,4 +1,5 @@
-/* ~~~~		19.		UPDATENOTICE					~~~~ */
+@import "https://nyri4.github.io/Comfy/betterdiscord/main.css";
+@import "https://raw.githubusercontent.com/Rdimo/betterdiscord-theme-rdimos-comfy-corner/main/Comfort/custom_icons.css";
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp::before {
 	content: "BetterComfort is outdated. Please download the newest Version:	https://github.com/Rdimo/betterdiscord-theme-rdimos-comfy-corner/blob/main/Rdimos-comfy-corner.theme.css" !important;

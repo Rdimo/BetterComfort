@@ -1,0 +1,1 @@
+Basically just a redo of https://betterdiscord.app/theme/Comfy | https://github.com/NYRI4/Comfy

@@ -1,0 +1,166 @@
+/**
+* @name BetterComfort
+* @author Rdimo#6969
+* @description nice and comfortable theme for your eyes
+* @invite notcheataway
+* @version 0.0.1
+* @donate https://paypal.me/rdimoo
+*/
+
+/**
+*
+*
+*
+*
+*
+*
+*/
+
+@import "https://nyri4.github.io/Comfy/betterdiscord/main.css";
+
+@import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css"; /* No scrollbar*/
+
+@import "https://nyri4.github.io/Comfy/betterdiscord/better-spotify.css"; /*cleaner spotify interface*/
+
+:root { 
+--disable-animations: 2s channel-unread infinite;
+
+--status-background: url('https://cdn.discordapp.com/avatars/905197756900065292/a_6c8609c17cc051c5fd81a5dceb38d35d.gif');
+
+--user-buttons-spacing: 8px;
+
+--user-buttons-color: #096DC0;
+
+--avatar-radius: 5px;  
+
+--status-radius: 3px; 
+
+--server-radius: 8px;
+
+--colored-emoji: grayscale(0%);
+
+--mention-color: #F04747;
+
+--unread-color: #7289DA;
+
+--mention-color-bar: #C66262;
+
+--mention-color-background: #C662621F;
+
+--mention-color-hover: #C6626226;
+
+--chat-buttons: #7289DA;
+
+--spotify-color: #1EDC62;
+
+--online: #43B581;
+
+--iddle: #FAA61A;
+
+--dnd: #F04747;
+
+--offline: #747F8D;
+
+--streaming: #593695;
+
+--playing: #7289da;
+
+--listening: #1db653;
+
+--role-circle: 5px;
+
+--discord-logo: none;
+
+}
+
+.theme-dark {
+    --blurple-replace: #7289DA;
+    --background-primary: rgb(8, 8, 8);
+    --background-secondary: rgb(5, 5, 5);
+    --background-secondary-alt: rgb(15, 15, 15);
+    --background-tertiary: black;
+    --background-accent: rgb(15, 15, 15);
+    --background-floating: black;
+    --userarea-background: var(--background-tertiary);
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --channels-default: #969696;
+    --channeltextarea-background: rgb(25, 25, 25);
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --activity-card-background: #0f0f0f;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: rgb(75, 75, 75);
+    --background-modifier-hover: rgba(50, 50, 50, 0.16);
+    --background-modifier-active: rgba(50, 50, 50, 0.24);
+    --background-modifier-selected: rgba(50, 50, 50, 0.32);
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+    --text-link: #00b0f4;
+    --text-normal: #dcddde;
+    --text-muted: #969696;
+    --deprecated-panel-background: #292b2f;
+    --deprecated-card-bg: rgba(32, 34, 37, 0.6);
+    --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+    --background-accent-1: rgb(15, 15, 15, 0.1);
+    --background-accent-3: rgb(15, 15, 15, 0.3);
+    --background-floating-2: rgba(0, 0, 0, 0.2);
+}
+ 
+.theme-light {
+    --background-primary: #23283D;
+    --background-secondary: #1E2233;
+    --background-secondary-alt: #191F2E;
+    --background-tertiary: #101320;
+    --background-accent: #7289DA;
+    --background-modifier-hover: #262B41;
+    --background-modifier-active: #262B41;
+    --header-primary: #FFF;
+    --header-secondary: #B1B5B9;
+    --text-normal: #8E9297;
+}
+.titleBar-AC4pGV.typeWindows-1za-n7::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    background: url('https://cdn.discordapp.com/avatars/905197756900065292/a_6c8609c17cc051c5fd81a5dceb38d35d.gif') center/100% no-repeat;
+    border-radius: 7px;
+    width: 16px;
+    height: 16px;
+    left: 5px;
+    top: 3px;
+}
+.titleBar-AC4pGV .wordmark-2iDDfm svg {
+    width: 0;
+}
+.titleBar-AC4pGV .wordmark-2iDDfm::after {
+    content: "Rdimo";
+    position: absolute;
+    font-family: "Fredoka One";
+    background: linear-gradient(to right, #ff00c1, #9600ff, #4900ff, #00b8ff, #00fff9);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 13px;
+    font-weight: 550;
+    top: 5px;
+    left: 25px;
+    width: 135px;
+    animation: textclip 1.5s linear infinite;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

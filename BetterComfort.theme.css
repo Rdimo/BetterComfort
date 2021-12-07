@@ -3,30 +3,29 @@
 * @author Rdimo#6969
 * @description nice and comfortable theme for your eyes
 * @invite notcheataway
-* @version 0.0.5
+* @version 0.0.6
 * @donate https://paypal.me/rdimoo
-* @source https://github.com/Rdimo/BetterDiscord-theme-BetterComfort
+* @source https://github.com/Rdimo/BetterComfort
 * @website https://rdimo.github.io/CheatAway/
-* @updateUrl https://raw.githubusercontent.com/Rdimo/BetterDiscord-theme-BetterComfort/main/Rdimos-comfy-corner.theme.css
+* @updateUrl https://raw.githubusercontent.com/Rdimo/BetterComfort/main/BetterComfort.theme.css
 */
 
 /*
 * PRETTY MUCH 75% OF THIS WAS MADE BY 'nyri4' THEREFOR ALL CREDITS GO TO HIM, JUST MADE SOME ADJUSTMENTS TO MAKE IT LOOK CLEANER
 */
 
-@import "https://nyri4.github.io/Comfy/betterdiscord/main.css";                                                 /*/ Mains /*/
-@import "https://raw.githubusercontent.com/Rdimo/BetterDiscord-theme-BetterComfort/main/Comfort/main.css";    /*/ Mains /*/
+@import "https://nyri4.github.io/Comfy/betterdiscord/main.css";                              /*/ Mains /*/
+@import url(https://raw.githubusercontent.com/Rdimo/BetterComfort/main/Comfort/main.css);   /*/ Mains /*/
 
 @import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css"; /* No scrollbar */
 @import "https://nyri4.github.io/Comfy/betterdiscord/better-spotify.css"; /*cleaner spotify interface */
 
+/* To change stuff like the colors, transparency and background image, change the variables inside the root {}, do NOT change the @import */
+
 :root { 
---usesettingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
---settingsiconssize: 18px;
---settingsiconsgap: 14px;
 --disable-animations: 2s channel-unread infinite;
 
---status-background: url('https://raw.githubusercontent.com/Rdimo/BetterDiscord-theme-BetterComfort/main/Comfort/doggo.gif');
+--status-background: url('https://raw.githubusercontent.com/Rdimo/BetterComfort/main/Comfort/doggo.gif');
 
 --user-buttons-spacing: 8px;
 

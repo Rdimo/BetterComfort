@@ -15,7 +15,7 @@
 */
 
 @import "https://nyri4.github.io/Comfy/betterdiscord/main.css";                              /*/ Mains /*/
-@import url(https://raw.githubusercontent.com/Rdimo/BetterComfort/main/Comfort/main.css);   /*/ Mains /*/
+@import "https://raw.githubusercontent.com/Rdimo/BetterComfort/main/Comfort/main.css";      /*/ Mains /*/
 
 @import "https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css"; /* No scrollbar */
 @import "https://nyri4.github.io/Comfy/betterdiscord/better-spotify.css"; /*cleaner spotify interface */
